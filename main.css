@@ -145,7 +145,7 @@ nav {
  
 .start_right::before { 
     content: ''; 
-    background-image: url(../style/img/diver-right.png); 
+    background-image: url(./style/img/diver1.svg); 
     background-size: contain; 
     width: 577px; 
     height: 449px; 
@@ -154,7 +154,7 @@ nav {
  
 .start_left::after { 
     content: ''; 
-    background-image: url(../style/img/diver-left.png); 
+    background-image: url(./style/img/diver2.svg); 
     background-size: contain; 
     width: 474px; 
     height: 325px; 
@@ -204,17 +204,78 @@ nav {
     content: '04';
 }
 
+.diver1 {
+    position: absolute;
+    float: right;
+}
 
+.diver2 {
+    position: relative;
+    float: right;
+}
 
+.start h1 {
+    color: white;
+    font-size: 64px;
+}
 
+.vidh1 {
+    color: white;
+    top: 153px;
+    margin-left: 202px;
+    margin-top: 153px;
+}
 
+footer iframe {
+    margin-top: 70px;
+}
 
+/* FOOTER */
 
+/* footer {
+    background-image: url(./style/img/bgfooter.svg);
+} */
 
+.podpiska {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 260px;
+}
 
+.prem1 {
+    width: 500px;
+    height: 562px;
+    background-image: url(./style/img/podpiska1.svg);
 
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
 
+.prem1 h1 {
+    /* padding-left: 65px;
+    padding-top: 50px; */
+}
 
+.prem1 p {
+
+}
+
+.prem1 button {
+    border: 1px solid white;
+    width: 360px;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.prem2 {
+    width: 500px;
+    height: 653px;
+    background-image: url(./style/img/podpiska2.svg);
+}
 
 
 
